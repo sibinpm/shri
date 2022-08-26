@@ -27,7 +27,7 @@ jobs:
           port: 2200 # default is 22
           local_path: ./* # default is ./*
           # files will copy to under remote_path
-          remote_path: /var/lib
+          remote_path: /mnt/extra-addons
           # sftp args
           sftp_only: true
           password: odoo
